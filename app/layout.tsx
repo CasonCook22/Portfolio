@@ -16,6 +16,7 @@ export default function RootLayout({
       {/* Apply the Inter font to the body */}
       <body className={`font-serif bg-white text-black antialiased ${inter.className}`}>
         {children}
+         <Analytics />
       </body>
     </html>
   );
